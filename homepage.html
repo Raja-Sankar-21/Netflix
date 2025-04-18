@@ -4,29 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Netflix Clone - Unlimited movies and TV shows.">
+    <meta name="keywords" content="Netflix, Movies, TV Shows, Streaming">
+    <meta name="author" content="Your Name">
     <title>Netflix UI</title>
     <link rel="stylesheet" href="./homepage.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <script src="./homepage.js"></script>
     <script src="./carousalbg.js"></script>
-    <script src="/movie-cards.js"></script>
+    <script src="./movie-cards.js"></script>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <div id="carousel-background"></div>
     <nav>
         <div id="app-name">
-            <img src="./Assets/Netflix-Logo.png" height="70px" alt="">
+            <img src="/assets/netflix-logo.png" height="70px" alt="Netflix Logo">
         </div>
         <div id="lang_signin">
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                     English
-                </button>
+                  </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <li><button class="dropdown-item" type="button">தமிழ்</button></li>
                     <li><button class="dropdown-item" type="button">हिन्दी</button></li>
@@ -50,7 +52,7 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bg="./Assets/The_Box.jpg">
-                    <img src="./Assets/The_Box.jpg" class="d-block w-100 curved-image" alt="..." />
+                    <img src="./Assets/The_Box.jpg" class="d-block w-100 curved-image" alt="Seven" />
                     <div class="overlay">
                         <h1>Unlimited movies and TV Shows</h1>
                         <h4>Starts at Rs.149 only. Cancel anytime.</h4>
@@ -59,23 +61,25 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bg="./Assets/BreakingBad.jpg">
-                    <img src="./Assets/BreakingBad.jpg" class="d-block w-100 curved-image" alt="..." />
+                    <img src="./Assets/BreakingBad.jpg" class="d-block w-100 curved-image" alt="Breaking Bad" />
                     <div class="overlay">
                         <h1>Breaking Bad</h1>
-                        <p>A high school chemistry teacher turned meth kingpin. A legendary story.</p>
+                        <p>A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling
+                            methamphetamine with a former student to secure his family's future.</p>
                         <button class="btn btn-danger">Play</button>
                     </div>
                 </div>
                 <div class="carousel-item" data-bg="./Assets/Dexter.jpg">
-                    <img src="./Assets/Dexter.jpg" class="d-block w-100 curved-image" alt="..." />
+                    <img src="./Assets/Dexter.jpg" class="d-block w-100 curved-image" alt="Dexter" />
                     <div class="overlay">
                         <h1>Dexter</h1>
-                        <p>He kills only the guilty. But can he stay in control?</p>
+                        <p>He's smart. He's lovable. He's Dexter Morgan, America's favorite serial killer, who spends
+                            his days solving crimes and his nights committing them.</p>
                         <button class="btn btn-danger">Play</button>
                     </div>
                 </div>
                 <div class="carousel-item" data-bg="./Assets/Inception.jpg">
-                    <img src="./Assets/Inception.jpg" class="d-block w-100 curved-image" alt="..." />
+                    <img src="./Assets/Inception.jpg" class="d-block w-100 curved-image" alt="Inception" />
                     <div class="overlay">
                         <h1>Inception</h1>
                         <p>You're waiting for a train. A train that will take you far away. You know where you hope the
@@ -118,12 +122,13 @@
                         <div class="movie-card">
                             <img src="./Assets/Animal.jpg" alt="Animal" class="movie-cards" data-title="Animal"
                                 data-meta="2023 • A • Action"
-                                data-desc="The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father's life.">       
+                                data-desc="The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father's life.">
                         </div>
 
                         <div class="movie-card">
                             <img src="./Assets/Salaar.jpg" alt="Salaar" class="movie-cards" data-title="Salaar"
-                                data-meta="2023 • A • Action" data-desc="The fate of a violently contested kingdom hangs on the fraught bond between two friends-turned-foes in this saga of power, bloodshed and betrayal.">                            
+                                data-meta="2023 • A • Action"
+                                data-desc="The fate of a violently contested kingdom hangs on the fraught bond between two friends-turned-foes in this saga of power, bloodshed and betrayal.">
                         </div>
 
                         <div class="movie-card">
@@ -144,7 +149,8 @@
                     <div class="d-flex justify-content-center gap-3">
                         <div class="movie-card">
                             <img src="./Assets/Hannibal.jpg" alt="Hannibal" class="movie-cards" data-title="Hannibal"
-                                data-meta="2015 • Thriller" data-desc="Explores the early relationship between renowned psychiatrist Hannibal Lecter and a young FBI criminal profiler who is haunted by his ability to empathize with serial killers.">
+                                data-meta="2015 • Thriller"
+                                data-desc="Explores the early relationship between renowned psychiatrist Hannibal Lecter and a young FBI criminal profiler who is haunted by his ability to empathize with serial killers.">
                         </div>
 
                         <div class="movie-card">
@@ -155,12 +161,14 @@
 
                         <div class="movie-card">
                             <img src="./Assets/Scarface.jpg" alt="Scarface" class="movie-cards" data-title="Scarface"
-                                data-meta="1983 • Crime" data-desc="In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction.">
+                                data-meta="1983 • Crime"
+                                data-desc="In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction.">
                         </div>
 
                         <div class="movie-card">
-                            <img src="./Assets/Interstellar.jpg" alt="Interstellar" class="movie-cards" data-title="Interstellar"
-                                data-meta="2014 • Science Fiction" data-desc="When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, 
+                            <img src="./Assets/Interstellar.jpg" alt="Interstellar" class="movie-cards"
+                                data-title="Interstellar" data-meta="2014 • Science Fiction"
+                                data-desc="When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, 
                                 Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.">
                         </div>
                     </div>
@@ -170,23 +178,25 @@
                     <div class="d-flex justify-content-center gap-3">
                         <div class="movie-card">
                             <img src="./Assets/OP.jpg" alt="One Piece" class="movie-cards" data-title="One Piece"
-                                data-meta="1999 • Shounen" data-desc="Monkey D. Luffy sets off on an adventure with his pirate crew in hopes of finding the greatest treasure ever, known as the 'One Piece.'">
+                                data-meta="1999 • Shounen"
+                                data-desc="Monkey D. Luffy sets off on an adventure with his pirate crew in hopes of finding the greatest treasure ever, known as the 'One Piece.'">
                         </div>
 
                         <div class="movie-card">
                             <img src="./Assets/FC.jpg" alt="F**** C***" class="movie-cards" data-title="F***** C***"
-                                data-meta="1999 • Crime • Action"
-                                data-desc="Not gonna break the first rule.">
+                                data-meta="1999 • Crime • Action" data-desc="Not gonna break the first rule.">
                         </div>
 
                         <div class="movie-card">
                             <img src="./Assets/Mahaan.jpg" alt="Mahaan" class="movie-cards" data-title="Mahaan"
-                                data-meta="2022 • Crime • Action" data-desc="Gandhi Mahaan, a school teacher, is abandoned by his family after he decides to live a life of his own, with personal freedom.">
+                                data-meta="2022 • Crime • Action"
+                                data-desc="Gandhi Mahaan, a school teacher, is abandoned by his family after he decides to live a life of his own, with personal freedom.">
                         </div>
 
                         <div class="movie-card">
-                            <img src="./Assets/TDKR.jpg" alt="Interstellar" class="movie-cards" data-title="Interstellar"
-                                data-meta="2014 • Science Fiction" data-desc="When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, 
+                            <img src="./Assets/TDKR.jpg" alt="Interstellar" class="movie-cards"
+                                data-title="Interstellar" data-meta="2014 • Science Fiction"
+                                data-desc="When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, 
                                 Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.">
                         </div>
                     </div>
@@ -207,25 +217,26 @@
 
     <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="movieModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
-          <div class="modal-content bg-dark text-white">
-            <div class="modal-header border-0">
-              <div class="modal-title-container">
-                <h5 class="modal-title" id="movieModalLabel">Movie Title</h5>
-                <p class="modal-meta" id="modalMeta"></p>
-              </div>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header border-0">
+                    <div class="modal-title-container">
+                        <h5 class="modal-title" id="movieModalLabel">Movie Title</h5>
+                        <p class="modal-meta" id="modalMeta"></p>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column flex-md-row gap-3">
+                    <img id="modalImg" src="" alt="Movie Image" class="img-fluid rounded" style="max-width: 300px;">
+                    <div>
+                        <p id="modalDesc"></p>
+                        <input type="text" id="modalInputField" class="form-control mt-3" placeholder="E-mail address">
+                        <button id="modalPlayButton" class="btn btn-danger mt-3">Play</button>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body d-flex flex-column flex-md-row gap-3">
-              <img id="modalImg" src="" alt="Movie Image" class="img-fluid rounded" style="max-width: 300px;">
-              <div>
-                <p id="modalDesc"></p>
-                <input type="text" id="modalInputField" class="form-control mt-3" placeholder="E-mail address">
-                <button id="modalPlayButton" class="btn btn-danger mt-3">Play</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <section class="plans">
         <h2 class="plan-title">A plan to suit your needs</h2><br>
@@ -752,10 +763,9 @@
             </table>
 
             <div class="footer-language">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownLangButton"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                     English
-                </button>
+                  </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <li><button class="dropdown-item" type="button">தமிழ்</button></li>
                     <li><button class="dropdown-item" type="button">हिन्दी</button></li>
