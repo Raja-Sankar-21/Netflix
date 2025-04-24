@@ -457,3 +457,265 @@ footer {
 #dropdownLangButton{
   margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+  .plan-container {
+    flex-direction: column; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    gap: 20px;
+  }
+
+  .plan-cards {
+    width: 100%; 
+    text-align: center;
+  }
+
+  .reason-container {
+    flex-direction: column; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    gap: 20px; 
+  }
+
+  .reason-cards {
+    width: 100%;
+    text-align: center;
+  }
+
+  .reason-icon {
+    padding-left: 0; 
+    padding-bottom: 10px; 
+  }
+}
+
+@media (max-width: 1080px) {
+  
+  nav {
+    padding: 15px 30px;
+  }
+
+  #app-name {
+    height: 80px; 
+  }
+
+  #lang_signin {
+    gap: 10px; 
+  }
+
+  #sign_in {
+    font-size: 14px; 
+    padding: 5px 10px; 
+    height: 30px;
+  }
+
+ 
+  .carousel-container {
+    padding: 0 50px;
+    padding-top: 120px;
+  }
+
+  .carousel-inner img {
+    max-height: 500px;
+  }
+
+  .overlay h1 {
+    font-size: 36px; 
+  }
+
+  .overlay h4 {
+    font-size: 18px;
+  }
+
+  .overlay p {
+    font-size: 16px;
+  }
+
+  .overlay input {
+    width: 100%; 
+    margin-top: 10px;
+  }
+
+ 
+  .plan-container {
+    padding-left: 50px; 
+    padding-right: 50px;
+    gap: 30px; 
+  }
+
+  .plan-cards {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  .reason-container {
+    padding-left: 50px; 
+    padding-right: 50px;
+    gap: 30px; 
+  }
+
+  .reason-cards {
+    width: 100%;
+    text-align: center;
+    height: 300px;
+  }
+
+  .reason-icon {
+    padding-left: 0; 
+    padding-bottom: 15px; 
+  }
+
+  .FAQ-container {
+    padding: 0 30px; 
+  }
+
+  .FAQ-title {
+    font-size: 24px; 
+  }
+
+  .FAQ-question {
+    font-size: 18px; 
+    padding: 15px;
+  }
+
+  .FAQ-answer {
+    font-size: 16px; 
+  }
+
+  footer {
+    font-size: 16px; 
+    padding: 30px; 
+  }
+
+  .footer-container {
+    padding: 0 30px; 
+  }
+
+  .contact-table td {
+    padding: 5px 10px; 
+  }
+
+  .footer-language select {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 550px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px; 
+  }
+
+  #app-name {
+    height: 50px; 
+    padding-left: 0;
+  }
+
+  #lang_signin {
+    margin-top: 10px;
+    justify-content: center; 
+    gap: 5px;
+  }
+
+  #sign_in {
+    font-size: 12px; 
+    padding: 3px 8px; 
+    height: 25px;
+  }
+
+  .carousel-container {
+    padding: 0 15px;
+  }
+
+  .carousel-inner img {
+    width: 100%; 
+    height: auto; 
+    max-height: 300px;
+    object-fit: cover; 
+  }
+
+  .overlay h1 {
+    font-size: 18px; 
+  }
+
+  .overlay h4 {
+    font-size: 14px; 
+  }
+
+  .overlay p {
+    font-size: 12px; 
+  }
+
+  .overlay input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .plan-container {
+    flex-direction: column; 
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 15px;
+  }
+
+  .plan-cards {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  .reason-container {
+    flex-direction: column; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    gap: 15px;
+  }
+
+  .reason-cards {
+    width: 100%; 
+    text-align: center; 
+    height: auto; 
+  }
+
+  .reason-icon {
+    padding-left: 0; 
+    padding-bottom: 10px; 
+  }
+
+  .FAQ-container {
+    padding: 0 15px; 
+  }
+
+  .FAQ-title {
+    font-size: 20px; 
+    text-align: center; 
+  }
+
+  .FAQ-question {
+    font-size: 16px; 
+    padding: 10px; 
+  }
+
+  .FAQ-answer {
+    font-size: 14px; 
+  }
+
+  footer {
+    font-size: 14px; 
+    padding: 20px; 
+  }
+
+  .footer-container {
+    padding: 0 15px;
+  }
+
+  .contact-table td {
+    display: block; 
+    margin-bottom: 10px;
+  }
+
+  .footer-language select {
+    width: 100%; 
+  }
+}
